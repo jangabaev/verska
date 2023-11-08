@@ -1,0 +1,91 @@
+@import url(./normailize.css);
+@import url(./style/header.css);
+@import url(./style/home.css);
+@import url(./style/about.css);
+@import url(./style/footer.css);
+@import url(./style/programms.css);
+@import url(./style/banner.css);
+@import url(./style/option.css);
+@import url(./style/kripto.css);
+@import url(./style/kriptostar.css);
+/* font-family: 'Inter', sans-serif; */
+
+.body{
+    background-color: white;
+}
+.body.active{
+    background-color: var(--bgdark);
+}
+:root{
+    /* color  */
+    --bgdark:#0D0D12;
+    --bagdaek80: #18181D;
+
+    
+    --tiltleColorDark: #0D0D12;
+    --buttonColortext: #297EE2;
+    --telegramcolortext: #41A4DF;
+    --blueColorCode:#61BAEF;
+    --bagroundButton: #297EE21F;
+    --darkTimeColor:#11111166;
+    --textWhite:#fff;
+    --darkTextColor:#111111CC;
+    --codeColor:#61BAEF;
+    --colorWhhite60: #FFFFFF99;
+    --darkBlue: #232328;
+    --bagroundOption:#F7F9FB;
+    --colordark80:#111111CC;
+    --blackoption:#252525;
+    --bgrcolorkripto:#F7F9FB;
+    --dark40color:#11111166;
+    --telegramButtonColor:#3688C2D1;
+    --telegramButtonColor100:#20699d;
+    --white80:rgba(255, 255, 255, 0.801);
+    /* size  */
+    --sizetitle:20px;
+    --h2TitleSize:56px;
+    --paragarafSize:42px;
+
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,li,a{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+p{
+   
+    font-size: var(--sizetitle);
+    letter-spacing: .5px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.button{
+    padding: 18px 42px 18px 42px;
+    border-radius: 30px;
+    font-size: var(--sizetitle);
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}

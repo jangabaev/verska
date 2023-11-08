@@ -1,0 +1,82 @@
+.programmas{
+    padding: 60px 0px;
+}
+
+.programmas__item__title{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.programmas__item__title h2{
+    color: var(--tiltleColorDark);
+    font-size: 56px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.programmas__item__title__p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programmas__item__title p{
+    text-align: center;
+    color: var(--colordark80);
+    width: 630px;
+}
+
+
+.programmas__item__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;   
+    padding-top: 40px;
+}
+
+
+.programmas__item__ul__li{
+    display: block;
+}
+
+.programmas__item__ul__li span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programmas__item__ul__li img{
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+}
+
+.programmas__item__ul__li p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.programmas__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 20px 0px;
+
+}
+
+.programmas__button button{
+    color: var(--textWhite);
+    background-color: var(--buttonColortext);
+}
+
+
+.body.active .programmas__item__title h2{
+    color: var(--textWhite);
+}
+
+.body.active .programmas__item__title p{
+    color: var(--white80);
+}

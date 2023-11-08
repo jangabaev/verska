@@ -1,0 +1,212 @@
+.kripto{
+    padding: 80px 0px;
+}
+
+.body.active .kriptoes{
+    background-color: var(--bagdaek80);
+}
+
+.kriptoes{
+    padding: 42px 56px 42px 56px;
+    background-color: var(--bgrcolorkripto);
+    border-radius: 40px;
+}
+
+.kriptoes h3{
+    font-size: var(--paragarafSize);
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: var(--tiltleColorDark);
+}
+
+.body.active .kriptoes h3{
+    color: var(--textWhite);
+}
+
+.kriptoes p{
+    font-size: var(--sizetitle);
+    color: var(--colordark80);
+    padding-bottom: 30px;
+}
+
+.body.active .kriptoes p{
+    color: var(--textWhite);
+}
+
+.kriptoes p a{
+    color: var(--telegramcolortext);
+    cursor: pointer;
+}
+
+.kriptoes__ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kriptoes__ul__li{
+    color: var(--dark40color);
+}
+
+.kriptoes__ul__li img{
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+}
+
+.kriptoes__ul__li p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.kriptoes__ul__li__1{
+    animation:anime1 3s linear infinite;    
+}
+
+.kriptoes__ul__li__2{
+    animation:anime2 3s linear infinite;
+}
+
+.kriptoes__ul__li__3{
+    animation:anime3 3s linear infinite;
+}
+.kriptoes__ul__li__4{
+    animation:anime4 3s linear infinite;
+}
+
+.kriptoes__ul__li__5{
+    animation:anime5 3s linear infinite;
+}
+
+.kriptoes__ul__li__6{
+    animation:anime6 3s  linear infinite;
+}
+
+.kriptoes__ul__li__7{
+    animation:anime7 3s  linear infinite;
+}
+
+.kriptoes__ul__li__8{
+    animation:anime8 3s linear infinite;
+}
+
+@keyframes anime1{
+    0%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    6.25%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    12.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime2{
+    12.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    18.75%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    25%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime3{
+
+    25%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    31.25%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    37.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime4{
+    37.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    43.75%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    50%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime5{
+    50%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    56.25%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    62.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime6{
+    62.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    68.75%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    75%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime7{
+    75%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    81.25%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    87.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}
+
+@keyframes anime8{
+    87.5%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+    93.75%{
+        color: var(--tiltleColorDark);
+        transform: scale(1.2);
+    }
+    100%{
+        color: var(--dark40color);
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,100 @@
+.about{
+    min-height: 100vh;
+    background-color:var(--darkBlue) ;
+}
+
+.about__first{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    min-height: 100vh;
+}
+
+
+.about__first__left{
+    background: linear-gradient(340.03deg, #FAACA8 8.42%, #DDD6F3 91.45%);
+    height: 488px;
+    width: 400px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    margin: 60px 0px;
+}
+
+.about__first__left__message{
+    background-color: white;
+    border-radius: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 400px;
+}
+
+.about__first__left__message p{
+    color: var(--tiltleColorDark);
+}
+
+.about__first__left__message h6{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: var(--darkTimeColor);
+    font-size: 15px;
+}
+
+.about__first__left__message__end{
+    background-color: var(--textWhite);
+    position: relative;
+    padding: 10px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.about__first__left__message__end::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -3px;
+    bottom: 0px;
+    border-radius: 50px;
+
+}
+
+.about__first__left__message__end p{
+    color: var(--tiltleColorDark);
+    max-width: 350px;
+   
+}
+
+.about__first__left__message__end h6{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: var(--darkTimeColor);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about__first__text h2{
+    font-size: 56px;
+    color: var(--textWhite);
+}
+
+.about__first__text h2 strong{
+    color: var(--telegramcolortext);
+}
+
+.about__first__text p{
+    padding: 25px 0px;
+    color: var(--textWhite);
+}
+
+.about__button{
+    background-color: var(--telegramcolortext);
+    color: var(--textWhite);
+}

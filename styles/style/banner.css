@@ -1,0 +1,50 @@
+.banner{
+    padding: 100px 0px 40px 0px;
+    
+
+}
+
+.banner__img{
+    background: linear-gradient(233.23deg, #9FCCFA -20.48%, #0974F1 97.38%); 
+       
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__item{
+    border-radius: 50px;
+    background-image: url(../../assets/images/API-block_img.png);
+    padding: 145px 100px;
+   background-repeat: no-repeat;
+   background-position: end;
+   background-size: cover;
+}
+
+.banner__item h2{
+    font-size: var(--h2TitleSize);
+    color: var(--textWhite);
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.banner__item p{
+    color: var(--textWhite);
+    max-width: 400px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.banner__item__button{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.banner__item__button button{
+    background-color: transparent;
+    border: 1px solid var(--textWhite);
+    color: var(--textWhite);
+}

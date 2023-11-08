@@ -1,0 +1,90 @@
+.header{
+    padding: 15px 10px;
+}
+
+.header__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__item.active .header__item__ul__li{
+    color: var(--textWhite);
+}
+
+.header__item__logo{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header__item__logo img{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header__item__ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
+
+.header__item__ul__li{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--tiltleColorDark);
+    letter-spacing: .7px;
+}
+.header__item__ul a{
+    list-style: none;
+}
+
+.header__item__ul__li:hover{
+    color: black;
+}
+
+.header__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__button{
+    color:var(--buttonColortext) ;
+    background-color:var(--bagroundButton) ;
+}
+
+.button__mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.body.active .header__button{
+    background-color: transparent;
+    border: 1px solid var(--textWhite);
+    color: var(--textWhite);
+}
+
+.button__mode img{
+    width: 40px;
+    height: 40px;
+}
+
+.button__mode:nth-child(2){
+    opacity: 0;
+    display: none;
+    visibility:hidden;
+}
